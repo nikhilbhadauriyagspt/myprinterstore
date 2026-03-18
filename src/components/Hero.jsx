@@ -52,7 +52,7 @@ const Hero = () => {
   const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
 
   return (
-    <section className="relative w-full h-[55vh] md:h-[90vh] overflow-hidden bg-white font-jakarta">
+    <section className="relative w-full h-[55vh] md:h-[94vh] overflow-hidden bg-white font-jakarta">
       <AnimatePresence mode="wait">
         <motion.div
           key={currentSlide}

@@ -158,21 +158,7 @@ export default function Header() {
           </div>
         </div>
 
-        {/* --- THIN SUB-HEADER MARQUEE --- */}
-        <div className="hidden md:block bg-gray-100 border-b border-gray-100 py-1.5 overflow-hidden">
-          <div className="max-w-[1920px] mx-auto px-6 lg:px-12 relative group/marquee">
-            <div className="flex animate-marquee whitespace-nowrap gap-12 pause-on-hover">
-              {[...subNavCategories, ...subNavCategories].map((cat, idx) => (
-                <Link key={idx} to={`/shop?category=${cat.slug}`} className="flex items-center gap-3 transition-all hover:scale-105">
-                  <div className="w-7 h-7 rounded-full overflow-hidden bg-white border border-gray-100 shadow-sm shrink-0">
-                    <img src={cat.img} alt={cat.name} className="w-full h-full object-cover" />
-                  </div>
-                  <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-black/70">{cat.name} Printers</span>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </div>
+
 
         {/* --- PREMIUM SEARCH OVERLAY --- */}
         <AnimatePresence>
@@ -276,7 +262,7 @@ export default function Header() {
       </header>
 
       {/* Spacer */}
-      <div className="h-20 md:h-[136px]"></div>
+      <div className="h-20 md:h-24"></div>
 
       {/* Mobile Sidebar */}
       <AnimatePresence>
