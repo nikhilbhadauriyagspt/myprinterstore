@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Truck, ShieldCheck, Headphones, Shield } from 'lucide-react';
+import { Truck, ShieldCheck, Headphones, Shield, Printer } from 'lucide-react';
 
 const features = [
   {
@@ -21,12 +21,12 @@ const features = [
     desc: "Specialized expert printer support",
     delay: 0.3
   },
-  {
-    icon: <Shield className="text-blue-600" size={24} />,
-    title: "Imperial Security",
-    desc: "Private encrypted transactions",
-    delay: 0.4
-  }
+ {
+  icon: <Printer className="text-blue-600" size={24} />,
+  title: "High Quality Printing",
+  desc: "Crisp and reliable print performance",
+  delay: 0.4
+}
 ];
 
 export default function Features() {

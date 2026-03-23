@@ -164,19 +164,22 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-
-        {/* --- BOTTOM SECTION --- */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-8 border-t border-slate-50">
-          <p className="text-[11px] text-slate-500 font-bold uppercase tracking-widest">
-            © 2026 Axel Printing. All Rights Reserved.
+{/* --- FOOTER BOTTOM --- */}
+        <div className="flex flex-col md:flex-row justify-between items-center gap-8">
+          <p className="text-[13px] text-blue-700 font-medium">
+            © 2026 DominicPrinters. <span className="text-blue-700 ml-2">All Rights Reserved.</span>
           </p>
           
-          <div className="flex items-center gap-6 transition-all">
+          <div className="flex items-center gap-8 ">
              <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" className="h-6" />
           </div>
+        </div>
 
-          <p className="text-slate-400 text-[9px] font-black uppercase tracking-[0.2em]">
-Disclaimer - For Informational only. No software installation or distribution.          </p>
+        {/* --- DISCLAIMER --- */}
+        <div className=" text-center ">
+          <p className="text-blue-700 opacity-70 text-[12px] font-black uppercase ">
+            Disclaimer - For Informational only. No software installation or distribution.
+          </p>
         </div>
       </div>
     </footer>
