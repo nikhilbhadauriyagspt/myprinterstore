@@ -167,7 +167,7 @@ export default function Footer() {
 {/* --- FOOTER BOTTOM --- */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <p className="text-[13px] text-blue-700 font-medium">
-            © 2026 DominicPrinters. <span className="text-blue-700 ml-2">All Rights Reserved.</span>
+            © 2026 Axel Printing. <span className="text-blue-700 ml-2">All Rights Reserved.</span>
           </p>
           
           <div className="flex items-center gap-8 ">
